@@ -1,0 +1,15 @@
+model:
+  name: wideresnet
+  depth: 28
+  widen_factor: 10
+
+optim:
+  epochs: 200
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 5e-4
+  nesterov: true
+
+  scheduler:
+    mul: 0.1
+    milestones: [60, 120, 180]

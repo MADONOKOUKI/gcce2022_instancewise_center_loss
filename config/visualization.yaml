@@ -1,0 +1,31 @@
+defaults:
+  - dataset: stl10
+  - model: wideresnet
+  - augmentation: standard
+
+num_ensemble_imgs: 2
+
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/00-56-04/model.pth
+# cifar100 true
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/00-53-24/model.pth
+# cifar100 false
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/00-05-07/model.pth
+# cifar10 false
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/00-06-11/model.pth
+# cifar10 true
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/09-08-31/model.pth
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/09-21-07/model.pth
+
+# PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/16-12-15/model.pth
+# stl10 false autoaug
+PATH: /fs1/groups1/gaa50073/madono/bmvc2021/em_classifier/outputs/2021-05-04/16-15-01/model.pth
+# stl10 true autoaug
+
+mlflow: 
+  runname: "sample"
+
+regularization: True
+
+gpu: 0
+seed: 1
+save_model_path: model.pth

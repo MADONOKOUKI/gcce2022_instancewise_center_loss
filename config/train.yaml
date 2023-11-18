@@ -1,0 +1,33 @@
+defaults:
+  - dataset: cifar10
+  # - dataset: cifar10
+  # - model: resnet18
+  # - model: wideresnet
+  - model: resnext
+  - augmentation: autoaug
+  # - augmentation: standard
+  # - augmentation: cutout
+
+num_ensemble_imgs: 2
+
+alpha_rate: 0.5
+
+mlflow: 
+  runname: "sample"
+
+# regularization: False
+regularization: True
+
+# competitive_method: augmix
+competitive_method: contrastive_center_loss
+# competitive_method: center_loss
+# competitive_method: baseline
+# competitive_method: triplet_loss
+# competitive_method: proposed
+
+regularization_loss_function: MSE
+# L1, MSE, KL, Hubor
+
+gpu: 0
+seed: 1
+save_model_path: model.pth

@@ -1,0 +1,6 @@
+Files already downloaded and verified
+Files already downloaded and verified
+
+===> epoch: 1/200
+train:
+debug

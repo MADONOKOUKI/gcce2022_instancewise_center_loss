@@ -1,0 +1,14 @@
+model:
+  name: shakeshake
+  base_channels: 32
+
+optim:
+  epochs: 600
+  lr: 0.2
+  momentum: 0.9
+  weight_decay: 1e-4
+  nesterov: true
+
+  scheduler:
+    mul: 0.1
+    milestones: [60, 120, 180]

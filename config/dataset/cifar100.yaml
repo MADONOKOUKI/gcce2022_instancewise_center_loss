@@ -1,0 +1,4 @@
+data:
+  name: cifar100
+  batch_size: 128
+  num_classes: 100

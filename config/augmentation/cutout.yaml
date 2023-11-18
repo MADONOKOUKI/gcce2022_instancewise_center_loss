@@ -1,0 +1,4 @@
+augmentation: cutout
+cutout:
+  length: 8
+  n_holes: 1
