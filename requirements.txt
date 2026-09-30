@@ -1,0 +1,7 @@
+torch>=1.13
+torchvision>=0.14
+numpy
+scipy
+pillow
+pyyaml
+matplotlib

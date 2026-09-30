@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iwcl"
+version = "1.0.0"
+description = "Instance-wise Center Loss for Efficient Training of Deep Convolutional Neural Networks (IEEE GCCE 2022) - official PyTorch implementation"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Koki Madono" }]
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=1.13",
+    "torchvision>=0.14",
+    "numpy",
+    "scipy",
+    "pillow",
+    "pyyaml",
+    "matplotlib",
+]
+keywords = ["instance-wise center loss", "consistency regularization", "data augmentation", "image classification", "pytorch"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://madonokouki.github.io/projects/instance-center-loss/"
+Repository = "https://github.com/MADONOKOUKI/gcce2022_instancewise_center_loss"
+Paper = "https://doi.org/10.1109/GCCE56475.2022.10014037"
+
+[tool.setuptools.packages.find]
+include = ["iwcl*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    # raised inside the archived release code that the tests compare against
+    "ignore:Please import `affine_transform`:DeprecationWarning",
+    "ignore:This overload of addmm_ is deprecated:UserWarning",
+    "ignore:`nn.init.kaiming_normal` is now deprecated:FutureWarning",
+    "ignore:Implicit dimension choice for log_softmax:UserWarning",
+]
