@@ -2,7 +2,8 @@
 
 Official PyTorch implementation of the paper *Instance-wise Center Loss for Efficient Training of Deep Convolutional Neural Networks* (IEEE GCCE 2022).
 
-[Koki Madono](https://madonokouki.github.io/), Masayuki Tanaka, Masaki Onishi
+[Koki Madono](https://madonokouki.github.io/)<sup>1,2</sup>, Masayuki Tanaka<sup>2,3</sup>, Masaki Onishi<sup>2</sup><br>
+<sup>1</sup>Waseda University, <sup>2</sup>National Institute of Advanced Industrial Science and Technology (AIST), <sup>3</sup>Tokyo Institute of Technology
 
 [![Project Page](https://img.shields.io/badge/Project-Page-4b8bbe)](https://madonokouki.github.io/projects/instance-center-loss/)
 [![Paper](https://img.shields.io/badge/DOI-10.1109%2FGCCE56475.2022.10014037-b31b1b)](https://ieeexplore.ieee.org/document/10014037)
