@@ -1,0 +1,94 @@
+path,experiment_folder,run_name,script,script_archived,setting,num_views,epochs_total,epochs_completed,train_images_per_epoch,best_acc_reported,best_test_acc_parsed,last_epoch_test_acc,status
+archive/results/main.txt,results,main,main.py,yes,script defaults,,200,200,50000,70.660,70.660,69.010,complete
+archive/results/main_avg.txt,results,main_avg,main_avg.py,yes,script defaults,,200,200,50000,71.750,71.750,70.920,complete
+archive/results/main_avg_10.txt,results,main_avg_10,main_avg.py,yes,unparsed suffix: 10,,200,200,50000,70.400,70.400,66.470,complete
+archive/results/main_avg_10_mom.txt,results,main_avg_10_mom,main_avg.py,yes,unparsed suffix: 10_mom,,200,200,50000,68.610,68.610,67.520,complete
+archive/results/main_avg_10_mom_trial2.txt,results,main_avg_10_mom_trial2,main_avg.py,yes,unparsed suffix: 10_mom_trial2,,200,200,50000,68.940,68.940,68.270,complete
+archive/results/main_avg_10_trial2.txt,results,main_avg_10_trial2,main_avg.py,yes,unparsed suffix: 10_trial2,,200,200,50000,69.530,69.530,68.210,complete
+archive/results/main_avg_comp.txt,results,main_avg_comp,main_avg.py,yes,unparsed suffix: comp,,200,200,50000,70.440,70.440,68.590,complete
+archive/results/main_avg_detach_num_2.txt,results,main_avg_detach_num_2,main_avg_detach.py,yes,num_imgs=2,2,200,200,50000,70.740,70.740,70.170,complete
+archive/results/main_avg_detach_num_3.txt,results,main_avg_detach_num_3,main_avg_detach.py,yes,num_imgs=3,3,200,200,50000,71.860,71.860,70.850,complete
+archive/results/main_avg_detach_num_4.txt,results,main_avg_detach_num_4,main_avg_detach.py,yes,num_imgs=4,4,200,200,50000,71.360,71.360,70.290,complete
+archive/results/main_avg_detach_num_5.txt,results,main_avg_detach_num_5,main_avg_detach.py,yes,num_imgs=5,5,200,200,50000,71.310,71.310,70.530,complete
+archive/results/main_avg_em_num_2.txt,results,main_avg_em_num_2,main_avg_em.py,yes,num_imgs=2,2,200,1,50000,,1.000,1.000,incomplete
+archive/results/main_avg_kl_num_10.txt,results,main_avg_kl_num_10,main_avg.py,yes,num_imgs=10; tag: kl,10,200,200,50000,69.100,69.100,67.000,complete
+archive/results/main_avg_kl_num_2.txt,results,main_avg_kl_num_2,main_avg.py,yes,num_imgs=2; tag: kl,2,200,200,50000,70.630,70.630,69.000,complete
+archive/results/main_avg_kl_num_3.txt,results,main_avg_kl_num_3,main_avg.py,yes,num_imgs=3; tag: kl,3,200,200,50000,71.170,71.170,68.920,complete
+archive/results/main_avg_kl_num_4.txt,results,main_avg_kl_num_4,main_avg.py,yes,num_imgs=4; tag: kl,4,200,200,50000,70.480,70.480,68.730,complete
+archive/results/main_avg_kl_num_5.txt,results,main_avg_kl_num_5,main_avg.py,yes,num_imgs=5; tag: kl,5,200,200,50000,69.900,69.900,68.450,complete
+archive/results/main_avg_kl_num_6.txt,results,main_avg_kl_num_6,main_avg.py,yes,num_imgs=6; tag: kl,6,200,200,50000,69.660,69.660,67.230,complete
+archive/results/main_avg_kl_num_7.txt,results,main_avg_kl_num_7,main_avg.py,yes,num_imgs=7; tag: kl,7,200,200,50000,70.130,70.130,67.240,complete
+archive/results/main_avg_kl_num_8.txt,results,main_avg_kl_num_8,main_avg.py,yes,num_imgs=8; tag: kl,8,200,200,50000,69.290,69.290,67.750,complete
+archive/results/main_avg_kl_num_9.txt,results,main_avg_kl_num_9,main_avg.py,yes,num_imgs=9; tag: kl,9,200,200,50000,69.200,69.200,67.710,complete
+archive/results/main_avg_nomse_num_2.txt,results,main_avg_nomse_num_2,main_avg_nomse.py,yes,num_imgs=2,2,200,200,50000,70.450,70.450,69.100,complete
+archive/results/main_avg_nomse_num_3.txt,results,main_avg_nomse_num_3,main_avg_nomse.py,yes,num_imgs=3,3,200,200,50000,70.420,70.420,68.620,complete
+archive/results/main_avg_nomse_num_4.txt,results,main_avg_nomse_num_4,main_avg_nomse.py,yes,num_imgs=4,4,200,200,50000,70.400,70.400,68.720,complete
+archive/results/main_avg_nomse_num_5.txt,results,main_avg_nomse_num_5,main_avg_nomse.py,yes,num_imgs=5,5,200,200,50000,70.410,70.410,68.820,complete
+archive/results/main_avg_num_1.txt,results,main_avg_num_1,main_avg.py,yes,num_imgs=1,1,200,200,50000,69.660,69.660,69.230,complete
+archive/results/main_avg_num_10.txt,results,main_avg_num_10,main_avg.py,yes,num_imgs=10,10,200,200,50000,70.220,70.220,67.990,complete
+archive/results/main_avg_num_2.txt,results,main_avg_num_2,main_avg.py,yes,num_imgs=2,2,200,200,50000,71.980,71.980,71.320,complete
+archive/results/main_avg_num_3.txt,results,main_avg_num_3,main_avg.py,yes,num_imgs=3,3,200,200,50000,71.440,71.440,70.530,complete
+archive/results/main_avg_num_4.txt,results,main_avg_num_4,main_avg.py,yes,num_imgs=4,4,200,200,50000,71.180,71.180,70.650,complete
+archive/results/main_avg_num_5.txt,results,main_avg_num_5,main_avg.py,yes,num_imgs=5,5,200,200,50000,71.400,71.400,70.650,complete
+archive/results/main_avg_num_6.txt,results,main_avg_num_6,main_avg.py,yes,num_imgs=6,6,200,200,50000,70.980,70.980,69.500,complete
+archive/results/main_avg_num_7.txt,results,main_avg_num_7,main_avg.py,yes,num_imgs=7,7,200,200,50000,71.250,71.250,69.240,complete
+archive/results/main_avg_num_8.txt,results,main_avg_num_8,main_avg.py,yes,num_imgs=8,8,200,200,50000,70.330,70.330,69.160,complete
+archive/results/main_avg_num_9.txt,results,main_avg_num_9,main_avg.py,yes,num_imgs=9,9,200,200,50000,70.830,70.830,68.860,complete
+archive/results/main_avg_post_num_10.txt,results,main_avg_post_num_10,main_avg_post.py,yes,num_imgs=10,10,200,200,50000,70.860,70.860,68.800,complete
+archive/results/main_avg_post_num_2.txt,results,main_avg_post_num_2,main_avg_post.py,yes,num_imgs=2,2,200,200,50000,71.590,71.590,70.870,complete
+archive/results/main_avg_post_num_3.txt,results,main_avg_post_num_3,main_avg_post.py,yes,num_imgs=3,3,200,200,50000,71.820,71.820,71.290,complete
+archive/results/main_avg_post_num_4.txt,results,main_avg_post_num_4,main_avg_post.py,yes,num_imgs=4,4,200,200,50000,70.910,70.910,70.000,complete
+archive/results/main_avg_post_num_5.txt,results,main_avg_post_num_5,main_avg_post.py,yes,num_imgs=5,5,200,200,50000,71.680,71.680,70.560,complete
+archive/results/main_avg_post_num_6.txt,results,main_avg_post_num_6,main_avg_post.py,yes,num_imgs=6,6,200,200,50000,71.080,71.080,69.500,complete
+archive/results/main_avg_post_num_7.txt,results,main_avg_post_num_7,main_avg_post.py,yes,num_imgs=7,7,200,200,50000,71.030,71.030,70.520,complete
+archive/results/main_avg_post_num_8.txt,results,main_avg_post_num_8,main_avg_post.py,yes,num_imgs=8,8,200,200,50000,70.330,70.330,69.550,complete
+archive/results/main_avg_post_num_9.txt,results,main_avg_post_num_9,main_avg_post.py,yes,num_imgs=9,9,200,200,50000,70.770,70.770,69.300,complete
+archive/results/main_avg_randaug_2.txt,results,main_avg_randaug_2,main_avg_randaug.py,yes,num_imgs=2,2,200,11,50000,,42.620,42.620,incomplete
+archive/results/main_avg_sep_num_2.txt,results,main_avg_sep_num_2,main_avg_sep.py,yes,num_imgs=2,2,200,200,50000,71.080,71.080,70.740,complete
+archive/results/main_avg_sep_num_3.txt,results,main_avg_sep_num_3,main_avg_sep.py,yes,num_imgs=3,3,200,200,50000,71.080,71.080,70.170,complete
+archive/results/main_avg_sep_num_4.txt,results,main_avg_sep_num_4,main_avg_sep.py,yes,num_imgs=4,4,200,200,50000,70.370,70.370,69.460,complete
+archive/results/main_avg_sep_num_5.txt,results,main_avg_sep_num_5,main_avg_sep.py,yes,num_imgs=5,5,200,200,50000,70.210,70.210,69.090,complete
+archive/results/main_avg_sim_num_2.txt,results,main_avg_sim_num_2,main_avg_sim.py,yes,num_imgs=2,2,200,200,50000,70.450,70.450,69.950,complete
+archive/results/main_avg_sim_num_3.txt,results,main_avg_sim_num_3,main_avg_sim.py,yes,num_imgs=3,3,200,200,50000,71.500,71.500,69.580,complete
+archive/results/main_avg_sim_num_4.txt,results,main_avg_sim_num_4,main_avg_sim.py,yes,num_imgs=4,4,200,200,50000,70.040,70.040,68.760,complete
+archive/results/main_avg_sim_num_5.txt,results,main_avg_sim_num_5,main_avg_sim.py,yes,num_imgs=5,5,200,200,50000,70.410,70.410,68.480,complete
+archive/results/main_em.txt,results,main_em,main_em.py,yes,script defaults,,200,200,50000,69.090,69.090,68.910,complete
+archive/results/main_instance.txt,results,main_instance,main_instance.py,yes,script defaults,,200,200,50000,70.580,70.580,70.150,complete
+archive/results/main_instance_avg_num_1.txt,results,main_instance_avg_num_1,main_instance_avg.py,yes,num_imgs=1,1,200,200,50000,70.600,70.600,70.550,complete
+archive/results/main_instance_ver2_num_1.txt,results,main_instance_ver2_num_1,main_instance_ver2.py,yes,num_imgs=1,1,200,200,50000,70.520,70.520,70.480,complete
+archive/results/main_instance_ver2_num_2.txt,results,main_instance_ver2_num_2,main_instance_ver2.py,yes,num_imgs=2,2,200,200,50000,70.650,70.650,70.110,complete
+archive/results/main_instance_ver2_num_3.txt,results,main_instance_ver2_num_3,main_instance_ver2.py,yes,num_imgs=3,3,200,2,50000,,18.900,18.900,incomplete
+archive/results/main_instance_ver2_num_4.txt,results,main_instance_ver2_num_4,main_instance_ver2.py,yes,num_imgs=4,4,200,1,50000,,10.630,10.630,incomplete
+archive/results/main_instance_ver2_num_5.txt,results,main_instance_ver2_num_5,main_instance_ver2.py,yes,num_imgs=5,5,200,0,,,,,no epoch finished
+archive/results/main_instance_ver3_num_1.txt,results,main_instance_ver3_num_1,main_instance_ver3.py,yes,num_imgs=1,1,200,200,50000,70.940,70.940,70.510,complete
+archive/results/main_noavg_randaug_2.txt,results,main_noavg_randaug_2,main_noavg_randaug.py,no,num_imgs=2,2,200,10,50000,,39.520,39.520,incomplete
+archive/results_exp1/debug_main_noavg_randaug_2_2_14_0.txt,results_exp1,debug_main_noavg_randaug_2_2_14_0,main_noavg_randaug.py,no,"debug run; num_imgs=2, N=2, M=14, mean=0",2,200,0,,,,,no epoch finished
+archive/results_exp1/debug_main_noavg_randaug_2_2_14_1.txt,results_exp1,debug_main_noavg_randaug_2_2_14_1,main_noavg_randaug.py,no,"debug run; num_imgs=2, N=2, M=14, mean=1",2,200,0,,,,,no epoch finished
+archive/results_exp1/debug_main_noavg_randaug_2_2_14_False.txt,results_exp1,debug_main_noavg_randaug_2_2_14_False,main_noavg_randaug.py,no,"debug run; num_imgs=2, N=2, M=14, mean=False",2,200,0,,,,,no epoch finished
+archive/results_exp1/main_noavg_randaug_2_1_2_False.txt,results_exp1,main_noavg_randaug_2_1_2_False,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=2, mean=False",2,200,200,50000,70.570,70.570,70.570,complete
+archive/results_exp1/main_noavg_randaug_2_1_2_True.txt,results_exp1,main_noavg_randaug_2_1_2_True,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=2, mean=True",2,200,200,50000,70.750,70.750,70.160,complete
+archive/results_exp1/main_noavg_randaug_2_2_14_False.txt,results_exp1,main_noavg_randaug_2_2_14_False,main_noavg_randaug.py,no,"num_imgs=2, N=2, M=14, mean=False",2,200,200,50000,67.110,67.110,67.110,complete
+archive/results_exp1/main_noavg_randaug_2_2_14_True.txt,results_exp1,main_noavg_randaug_2_2_14_True,main_noavg_randaug.py,no,"num_imgs=2, N=2, M=14, mean=True",2,200,200,50000,67.510,67.510,67.200,complete
+archive/results_exp2/main_noavg_randaug_2_0_0_0.txt,results_exp2,main_noavg_randaug_2_0_0_0,main_noavg_randaug.py,no,"num_imgs=2, N=0, M=0, mean=0",2,200,200,50000,69.690,69.690,69.100,complete
+archive/results_exp2/main_noavg_randaug_2_0_0_1.txt,results_exp2,main_noavg_randaug_2_0_0_1,main_noavg_randaug.py,no,"num_imgs=2, N=0, M=0, mean=1",2,200,200,50000,71.190,71.190,70.460,complete
+archive/results_exp2/main_noavg_randaug_2_10_1_0.txt,results_exp2,main_noavg_randaug_2_10_1_0,main_noavg_randaug.py,no,"num_imgs=2, N=10, M=1, mean=0",2,200,8,50000,,13.270,13.270,incomplete
+archive/results_exp2/main_noavg_randaug_2_10_1_1.txt,results_exp2,main_noavg_randaug_2_10_1_1,main_noavg_randaug.py,no,"num_imgs=2, N=10, M=1, mean=1",2,200,8,50000,,8.630,8.630,incomplete
+archive/results_exp2/main_noavg_randaug_2_1_1_0.txt,results_exp2,main_noavg_randaug_2_1_1_0,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=1, mean=0",2,200,200,50000,69.630,69.630,69.540,complete
+archive/results_exp2/main_noavg_randaug_2_1_1_0_nobasic_aug.txt,results_exp2,main_noavg_randaug_2_1_1_0_nobasic_aug,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=1, mean=0; tag: nobasic_aug",2,200,200,50000,62.990,62.990,60.540,complete
+archive/results_exp2/main_noavg_randaug_2_1_1_1.txt,results_exp2,main_noavg_randaug_2_1_1_1,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=1, mean=1",2,200,200,50000,70.280,70.280,70.040,complete
+archive/results_exp2/main_noavg_randaug_2_1_1_1_nobasic_aug.txt,results_exp2,main_noavg_randaug_2_1_1_1_nobasic_aug,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=1, mean=1; tag: nobasic_aug",2,200,200,50000,63.810,63.810,62.010,complete
+archive/results_exp2/main_noavg_randaug_2_1_2_0.txt,results_exp2,main_noavg_randaug_2_1_2_0,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=2, mean=0",2,200,200,50000,70.260,70.260,69.890,complete
+archive/results_exp2/main_noavg_randaug_2_1_2_1.txt,results_exp2,main_noavg_randaug_2_1_2_1,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=2, mean=1",2,200,200,50000,71.000,71.000,71.000,complete
+archive/results_exp2/main_noavg_randaug_2_1_2_1_prob.txt,results_exp2,main_noavg_randaug_2_1_2_1_prob,main_noavg_randaug.py,no,"num_imgs=2, N=1, M=2, mean=1; tag: prob",2,200,200,50000,70.330,70.330,70.110,complete
+archive/results_exp2/main_noavg_randaug_2_2_14_0.txt,results_exp2,main_noavg_randaug_2_2_14_0,main_noavg_randaug.py,no,"num_imgs=2, N=2, M=14, mean=0",2,200,200,50000,68.370,68.370,68.020,complete
+archive/results_exp2/main_noavg_randaug_2_2_14_1.txt,results_exp2,main_noavg_randaug_2_2_14_1,main_noavg_randaug.py,no,"num_imgs=2, N=2, M=14, mean=1",2,200,200,50000,67.110,67.110,66.990,complete
+archive/results_exp2/main_noavg_randaug_2_2_14_1_prob.txt,results_exp2,main_noavg_randaug_2_2_14_1_prob,main_noavg_randaug.py,no,"num_imgs=2, N=2, M=14, mean=1; tag: prob",2,200,200,50000,66.390,66.390,66.390,complete
+archive/results_exp2/main_noavg_randaug_2_5_1_0.txt,results_exp2,main_noavg_randaug_2_5_1_0,main_noavg_randaug.py,no,"num_imgs=2, N=5, M=1, mean=0",2,200,14,50000,,28.750,26.410,incomplete
+archive/results_exp2/main_noavg_randaug_2_5_1_1.txt,results_exp2,main_noavg_randaug_2_5_1_1,main_noavg_randaug.py,no,"num_imgs=2, N=5, M=1, mean=1",2,200,14,50000,,24.200,24.200,incomplete
+archive/results_exp3/wideresnet28-2/main_avg_2_0_0_0.txt,results_exp3/wideresnet28-2,main_avg_2_0_0_0,main_avg_randaug.py,yes,"num_imgs=2, N=0, M=0, mean=0",2,200,200,50000,74.900,74.900,74.640,complete
+archive/results_exp3/wideresnet28-2/main_avg_2_0_0_1.txt,results_exp3/wideresnet28-2,main_avg_2_0_0_1,main_avg_randaug.py,yes,"num_imgs=2, N=0, M=0, mean=1",2,200,200,50000,76.170,76.170,75.820,complete
+archive/results_exp3/wideresnet28-2/main_avg_2_0_0_1_nocenter_ce.txt,results_exp3/wideresnet28-2,main_avg_2_0_0_1_nocenter_ce,main_avg_randaug.py,yes,"num_imgs=2, N=0, M=0, mean=1; tag: nocenter_ce",2,200,200,50000,76.720,76.720,76.360,complete
+archive/results_exp3/wideresnet28-2/main_avg_2_1_1_0.txt,results_exp3/wideresnet28-2,main_avg_2_1_1_0,main_avg_randaug.py,yes,"num_imgs=2, N=1, M=1, mean=0",2,200,200,50000,75.250,75.250,74.860,complete
+archive/results_exp3/wideresnet28-2/main_avg_2_1_1_1.txt,results_exp3/wideresnet28-2,main_avg_2_1_1_1,main_avg_randaug.py,yes,"num_imgs=2, N=1, M=1, mean=1",2,200,200,50000,76.070,76.070,75.520,complete
+archive/results_exp3/wideresnet28-2/main_avg_2_2_14_0.txt,results_exp3/wideresnet28-2,main_avg_2_2_14_0,main_avg_randaug.py,yes,"num_imgs=2, N=2, M=14, mean=0",2,200,200,50000,75.250,75.250,75.230,complete
+archive/results_exp3/wideresnet28-2/main_avg_2_2_14_1.txt,results_exp3/wideresnet28-2,main_avg_2_2_14_1,main_avg_randaug.py,yes,"num_imgs=2, N=2, M=14, mean=1",2,200,200,50000,76.330,76.330,75.980,complete
