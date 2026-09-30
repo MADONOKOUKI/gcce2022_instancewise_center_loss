@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+type: software
+title: "Instance-wise Center Loss for Efficient Training of Deep Convolutional Neural Networks: official PyTorch implementation"
+authors:
+  - family-names: Madono
+    given-names: Koki
+    orcid: "https://orcid.org/0000-0002-5214-8539"
+repository-code: "https://github.com/MADONOKOUKI/gcce2022_instancewise_center_loss"
+url: "https://madonokouki.github.io/projects/instance-center-loss/"
+license: MIT
+version: 1.0.0
+keywords:
+  - instance-wise center loss
+  - consistency regularization
+  - data augmentation
+  - image classification
+  - convolutional neural networks
+  - pytorch
+preferred-citation:
+  type: conference-paper
+  title: "Instance-wise Center Loss for Efficient Training of Deep Convolutional Neural Networks"
+  authors:
+    - family-names: Madono
+      given-names: Koki
+      orcid: "https://orcid.org/0000-0002-5214-8539"
+    - family-names: Tanaka
+      given-names: Masayuki
+    - family-names: Onishi
+      given-names: Masaki
+  collection-title: "2022 IEEE 11th Global Conference on Consumer Electronics (GCCE)"
+  conference:
+    name: "2022 IEEE 11th Global Conference on Consumer Electronics (GCCE)"
+  publisher:
+    name: IEEE
+  start: 692
+  end: 696
+  year: 2022
+  month: 10
+  doi: "10.1109/GCCE56475.2022.10014037"
+  url: "https://ieeexplore.ieee.org/document/10014037"
